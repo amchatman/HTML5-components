@@ -6,24 +6,32 @@
      <!--Viewport make the website responsive-->
     <meta name="viewport" content="width=device-width,initial-scale=1, viewport-fit=cover">
     <!--Css link to your stylesheet-->
-    <link rel="stylesheet" type="text/css" href="#" media="screen" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
 
 <body>    
 <!--Start your HTML5 code here-->
-<h1>Join our team</h1>
-<form action="#">
-    <label for="email"> Email
-        <input type="text" name="email" placeholder="Email">
-    </label>
+<div class="container">
+    <h1>Join our team</h1>
+    <hr>
+    <form action="#">
+        <label for="yourname">Name</label><br>
+        <input type="text" name="name" placeholder="Name"><br>
 
-    <label for="password"> Password
-        <input type="password" name="password" placeholder="Password">
-    </label>
-    <button type="submit">Create a account</button>
-</form>
-    <p>Already have a account?</p>
-    <a href="index.html">Sign-in here</a>
+        <label for="email"> Email</label><br>
+        <input type="text" name="email" placeholder="example@email.com"><br>
+
+        <label for="password"> Password</label><br>
+            <input type="password" name="password" placeholder="at least 8 characters">
+        <br>
+        <button type="submit">Sign up</button>
+    </form>
+    <div class="bottom-container">
+        <p>I agree to with the <a href="#">Terms and Services</a> </p>
+        <p>Already have a account?</p>
+        <a href="index.html">Sign-in here</a>
+     </div>
+    </div>
 <!--JavaScript link to your js file. * Not require if your not using JavaScript-->
 <script src="#"></script>
 </body>

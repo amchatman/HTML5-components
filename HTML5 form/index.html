@@ -6,23 +6,33 @@
      <!--Viewport make the website responsive-->
     <meta name="viewport" content="width=device-width,initial-scale=1, viewport-fit=cover">
     <!--Css link to your stylesheet-->
-    <link rel="stylesheet" type="text/css" href="#" media="screen" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
 
 <body>  
 <!--Start your HTML5 code here-->
-<h1>Welcome back</h1>
-<form action="#">
-    <label for="email"> Email
-        <input type="text" name="email" placeholder="Email">
-    </label>
-    <label for="password"> Password
-        <input type="password" name="password" placeholder="Password">
-    </label>
-    <button type="submit">Login</button>
-</form>
-<p>Don't have a account?</p>
-<a href="signup.html">Create a new account</a>
+<div class="container">
+    <h1>Login</h1>
+    <hr>
+    <form action="#">
+        <label for="email" class="input-label"> Email</label><br>
+            <input type="text" name="email" placeholder="Email"><br>
+
+        <label for="password" class="input-label"> Password</label><br>
+        <input type="password" name="password" placeholder="Password"><br>
+ 
+    
+        <input type="checkbox" name="remeber me">
+        <label for="remeber me" class="checkbox-label">Remeber Me</label>
+        <br>
+        <button type="submit">Login</button>
+    </form>
+<div class="bottom-container">
+    <p>Forgot Password?</p>
+    <p>Don't have a account?</p>
+    <a href="signup.html">Sign up</a>
+    </div>
+</div>
 <!--JavaScript link to your js file. * Not require if your not using JavaScript-->
 <script src="#"></script>
 </body>
