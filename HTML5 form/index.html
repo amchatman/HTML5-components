@@ -12,11 +12,11 @@
 <body>  
 <!--Start your HTML5 code here-->
 <div class="container">
-    <h1>Login</h1>
+    <h1 class="form-header">Login</h1>
     <hr>
     <form action="#">
         <label for="email" class="input-label"> Email</label><br>
-            <input type="text" name="email" placeholder="Email"><br>
+        <input type="text" name="email" placeholder="Email"><br>
 
         <label for="password" class="input-label"> Password</label><br>
         <input type="password" name="password" placeholder="Password"><br>
@@ -25,15 +25,17 @@
         <input type="checkbox" name="remeber me">
         <label for="remeber me" class="checkbox-label">Remeber Me</label>
         <br>
-        <button type="submit">Login</button>
+        <button type="submit" class="login">Login</button>
     </form>
 <div class="bottom-container">
-    <p>Forgot Password?</p>
-    <p>Don't have a account?</p>
+    <p class="forgotpw">
+        <a href="#">Forgot Password?</a>
+    </p>
+    <hr>
+    <p class="noacc">Don't have a account?</p>
     <a href="signup.html">Sign up</a>
     </div>
 </div>
-<!--JavaScript link to your js file. * Not require if your not using JavaScript-->
-<script src="#"></script>
+
 </body>
 </html>
