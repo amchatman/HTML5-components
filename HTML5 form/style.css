@@ -66,15 +66,18 @@ hr{
     color:var(--white);
     margin-top:10px;
 }
-.bottom-container a{
+.bottom-container a, .terms{
     text-decoration:none;
     color:var(--primary);
 }
-.forgotpw,.terms{
+.forgotpw{
     margin-bottom:20px;
     color:var(--darkgray);
 }
 .noacc,.ahacc{
     margin-top:20px;
     color:var(--darkgray);
+}
+.terms-line{
+    margin-top:15px
 }

@@ -16,18 +16,22 @@
     <hr>
     <form action="#">
         <label for="yourname">Name</label><br>
-        <input type="text" name="name" placeholder="Name"><br>
+        <input type="text" name="name" placeholder="Name" required /><br>
 
         <label for="email"> Email</label><br>
-        <input type="text" name="email" placeholder="example@email.com"><br>
+        <input type="text" name="email" placeholder="example@email.com" required /><br>
 
-        <label for="password"> Password</label><br>
-            <input type="password" name="password" placeholder="at least 8 characters">
+        <label for="password"> Create a Password</label><br>
+            <input type="password" name="password" minlength="8" placeholder="at least 8 characters" required />
         <br>
+        <hr class="terms-line">
+        <label>
+        <input type="checkbox" required/> I agree to with the <a href="#" class="terms">Terms and Services</a>
+        </label>
         <button type="submit" class="signup">Sign up</button>
     </form>
     <div class="bottom-container">
-        <p class="terms">I agree to with the <a href="#">Terms and Services</a> </p>   
+           
         <hr>
         <p class="ahacc">Already have a account?</p>
         <a href="index.html">Sign-in here</a>
