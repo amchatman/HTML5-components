@@ -1,0 +1,43 @@
+:root{
+    --primary-color:#C1B8E7;
+    --secondary-color:#E8F3F5;
+    --white:#FFFFFF;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:var(--primary-color);
+    font-family:Roboto, Arial, sans-serif;
+}
+.form-container{
+    background-color:var(--secondary-color);
+    display:flex;
+    margin:150px auto;
+    width:80%;
+    border-radius:10px;
+}
+.form-img{
+    width:60%;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+form{
+    margin:20px;
+}
+.form-header,.signin{
+    text-align:center;
+}
+.signin.terms{
+    font-size:14px;
+}
+a{
+    text-decoration:none;
+    color:var(--primary-color);
+    font-weight:600;
+    font-size:12px;
+}
+input{
+    display:block;
+}
