@@ -26,11 +26,23 @@ body{
 form{
     margin:20px;
 }
+.form-header{
+    margin-top:20px;
+}
 .form-header,.signin{
     text-align:center;
 }
-.signin.terms{
+.signin{
+    margin-top:10px;
+    margin-bottom:20px;
     font-size:14px;
+}
+.terms{
+    font-size:12px;
+    display:inline;
+}
+.terms-label{
+    margin-left:0;
 }
 a{
     text-decoration:none;
@@ -40,4 +52,23 @@ a{
 }
 input{
     display:block;
+}
+input[type="text"],[type="email"],[type=password],[type="submit"]{
+    margin:5px auto;
+    width:80%;
+    box-sizing:border-box;
+    height:25px;
+    margin-bottom:10px;
+}
+input[type="submit"]{
+    background-color:var(--primary-color);
+    color:var(--white);
+    border-radius:10px;
+    border:none;
+}
+input[type="checkbox"]{
+    display:inline-block;  
+}
+label{
+    margin-left:29px;
 }

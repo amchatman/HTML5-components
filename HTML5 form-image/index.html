@@ -16,17 +16,24 @@
     <form>
         <h1 class="form-header">Get Started</h1>
         <p class="signin">Already have account? <a href="#">Sign in</a></p>
+
         <label for="name">Name</label>
-        <input type="text" name="name"/>
+        <input type="text" name="name" placeholder="Name"/>
+
         <label for="email">Email</label>
-        <input type="email" name="email" />
+        <input type="email" name="email" placeholder="Email" />
+
         <label for="password">Password</label>
-        <input type="password" name="password">
-        <input type="radio"/>I agree with the <a href="#">Platforms terms</a> and <a href="#">Private Policy</a>
+        <input type="password" name="password" placeholder="Password">
+
+        <input type="checkbox" name="terms"/>
+        <label for="terms" class="terms-label">
+            <p class="terms">I agree with the <a href="#">Platforms terms</a> and <a href="#">Private Policy</a></p>
+        </label>
+        
         <input type="submit" value="Register"/>
     </form>
 </div>
-
 
 
 <!--JavaScript link to your js file. * Not require if your not using JavaScript-->
