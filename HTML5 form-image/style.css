@@ -24,7 +24,7 @@ body{
     border-bottom-left-radius:10px;
 }
 form{
-    margin:20px;
+    margin:50px;
 }
 .form-header{
     margin-top:20px;
@@ -43,6 +43,7 @@ form{
 }
 .terms-label{
     margin-left:0;
+    margin-right:30px;
 }
 a{
     text-decoration:none;
@@ -59,15 +60,21 @@ input[type="text"],[type="email"],[type=password],[type="submit"]{
     box-sizing:border-box;
     height:25px;
     margin-bottom:10px;
+    border:none;
+    padding:10px 5px 10px 5px;
 }
 input[type="submit"]{
     background-color:var(--primary-color);
     color:var(--white);
     border-radius:10px;
     border:none;
+    margin-top:25px;
+    padding:0;
 }
 input[type="checkbox"]{
     display:inline-block;  
+    margin-top:20px;
+    margin-left:30px;
 }
 label{
     margin-left:29px;
