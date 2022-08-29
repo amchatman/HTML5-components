@@ -55,11 +55,10 @@ input{
     display:block;
 }
 input[type="text"],[type="email"],[type=password],[type="submit"]{
-    margin:5px auto;
+    margin:5px auto 10px auto;
     width:80%;
     box-sizing:border-box;
     height:25px;
-    margin-bottom:10px;
     border:none;
     padding:10px 5px 10px 5px;
 }
@@ -79,3 +78,26 @@ input[type="checkbox"]{
 label{
     margin-left:29px;
 }
+@media (max-width:768px){
+    .form-container{
+        display:block;
+        margin:50px auto;
+        width:90%;
+    }
+    form{
+        padding:10px;
+    }
+    input[type="checkbox"]{
+        margin:0; 
+    }
+    .terms-label{
+      margin:0;
+      text-align:center;
+    } 
+    .form-img{
+     margin:10px 50px 10px 50px;
+     width:70%;
+     border-top-left-radius:0;
+     border-bottom-right-radius:10px;  
+ }
+  }
